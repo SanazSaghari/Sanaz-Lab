@@ -1,0 +1,126 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Q1 - Button with background transition */
+  .transition-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  .transition-button:hover {
+    background-color: green;
+  }
+  
+  /* Q2 - Div with width transition */
+  .transition-div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 20px auto;
+    transition: width 1s;
+  }
+  
+  .transition-div:hover {
+    width: 200px;
+  }
+  
+  /* Q3 - Paragraph with font size transition */
+  .transition-text {
+    font-size: 16px;
+    margin: 20px;
+    transition: font-size 0.3s;
+  }
+  
+  .transition-text:hover {
+    font-size: 24px;
+  }
+  
+  /* Q4 - Image with opacity transition */
+  .transition-image {
+    width: 150px;
+    height: 150px;
+    transition: opacity 0.8s;
+  }
+  
+  .transition-image:hover {
+    opacity: 0.5;
+  }
+  
+  /* Q5 - Div with scale effect */
+  .scale-div {
+    width: 150px;
+    height: 150px;
+    background-color: teal;
+    margin: 20px auto;
+    transition: transform 0.3s;
+  }
+  
+  .scale-div:hover {
+    transform: scale(1.5);
+  }
+  
+  /* Q6 - Image with scale effect */
+  .scale-image {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s;
+  }
+  
+  .scale-image:hover {
+    transform: scale(0.75);
+  }
+  
+  /* Q7 - Button with translate effect */
+  .translate-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .translate-button:hover {
+    transform: translate(50px, 20px);
+  }
+  
+  /* Q8 - Div with translate effect */
+  .translate-div {
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    margin: 20px auto;
+    transition: transform 0.3s;
+  }
+  
+  .translate-div:hover {
+    transform: translateX(-100px);
+  }
+  
+  /* Q9 - Heading with skew effect */
+  .skew-heading {
+    font-size: 36px;
+    transition: transform 0.3s;
+  }
+  
+  .skew-heading:hover {
+    transform: skewX(20deg);
+  }
+  
+  /* Q10 - Paragraph with skew effect */
+  .skew-paragraph {
+    font-size: 16px;
+    transition: transform 0.3s;
+  }
+  
+  .skew-paragraph:hover {
+    transform: skewY(15deg);
+  }
+  
